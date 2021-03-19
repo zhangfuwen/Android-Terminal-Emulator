@@ -1,7 +1,7 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 task wrapper (type:Wrapper) {
-    gradleVersion = '5.0.1'
-    distributionUrl = 'https://services.gradle.org/distributions/gradle-5.0.1-all.zip'
+    gradleVersion = '6.8.3'
+    distributionUrl = 'https://services.gradle.org/distributions/gradle-6.8.3-all.zip'
 }
 
 buildscript {
