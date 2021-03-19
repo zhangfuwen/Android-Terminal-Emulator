@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "jackpal.androidterm"
-        minSdkVersion 4
+        minSdkVersion 22 
         targetSdkVersion 22
 
         ndk {
