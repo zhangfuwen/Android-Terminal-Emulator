@@ -9,9 +9,11 @@ android {
         targetSdkVersion 22
     }
 
-      lintOptions {
-          abortOnError false
-      }
+/*
+    lintOptions {
+        abortOnError false
+    }
+    */
   
 
     buildTypes {
