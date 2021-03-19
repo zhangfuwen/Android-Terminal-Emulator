@@ -28,7 +28,7 @@
 #include <signal.h>
 #include <string.h>
 
-using char16_t = unsigned short
+using char16_t = unsigned short;
 
 class String8 {
 public:
