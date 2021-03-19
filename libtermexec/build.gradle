@@ -16,12 +16,6 @@ android {
     compileSdkVersion 22
     buildToolsVersion "22.0.1"
 
-
-    externalNativeBuild {
-      cmake {
-        path "src/main/jni/CMakeLists.txt"
-      }
-    }
     defaultConfig {
         minSdkVersion 4
         targetSdkVersion 22
@@ -30,6 +24,7 @@ android {
 
         externalNativeBuild {
           cmake {
+            path "src/main/jni/CMakeLists.txt"
             arguments "-DANDROID_ARM_NEON=TRUE", "-DANDROID_TOOLCHAIN=clang"
             cFlags "-D__STDC_FORMAT_MACROS"
             cppFlags "-fexceptions", "-frtti"
