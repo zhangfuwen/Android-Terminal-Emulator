@@ -8,6 +8,7 @@ task wrapper (type:Wrapper) {
 
 buildscript {
     repositories {
+        google()
         jcenter()
         mavenCentral()
     }
@@ -19,6 +20,7 @@ buildscript {
 
 allprojects {
     repositories {
+        google()
         jcenter()
     }
 }
