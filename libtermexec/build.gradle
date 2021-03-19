@@ -24,6 +24,7 @@ android {
         versionCode 1
         versionName "1.0"
 
+        /*
         externalNativeBuild {
           cmake {
             path "src/main/jni/CMakeLists.txt"
@@ -32,12 +33,15 @@ android {
             cppFlags "-fexceptions", "-frtti"
           }
         }
+        */
     }
+    /*
     externalNativeBuild {
       cmake {
         path "src/main/jni/CMakeLists.txt"
       }
     }
+    */
 
 /*
       lintOptions {
