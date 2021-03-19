@@ -14,7 +14,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:4.1.0+'
-        classpath 'com.jakewharton.sdkmanager:gradle-plugin:0.12.0'
+//        classpath 'com.jakewharton.sdkmanager:gradle-plugin:0.12.0'
     }
 }
 
@@ -25,6 +25,7 @@ allprojects {
     }
 }
 
+/*
 subprojects {
     def androidHome
 
@@ -33,3 +34,4 @@ subprojects {
             && androidHome.canWrite())
         apply plugin: 'android-sdk-manager'
 }
+*/
