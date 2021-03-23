@@ -14,6 +14,7 @@ Android trademark owner.)
 
 This code is based on the "Term" application which is included in the Android
 Open Source Project. (Which I also wrote. :-) )
+[![Build & Publish Debug APK](https://github.com/zhangfuwen/Android-Terminal-Emulator/actions/workflows/android.yml/badge.svg)](https://github.com/zhangfuwen/Android-Terminal-Emulator/actions/workflows/android.yml)
 
 [Download the Terminal Emulator for Android from Google Play](https://play.google.com/store/apps/details?id=jackpal.androidterm)
 
