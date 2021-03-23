@@ -5,9 +5,9 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        applicationId "jackpal.androidterm2"
+        applicationId "jackpal.androidterm"
         minSdkVersion 22 
-        targetSdkVersion 22
+        targetSdkVersion 29
 
         ndk {
             moduleName "libjackpal-androidterm5"
