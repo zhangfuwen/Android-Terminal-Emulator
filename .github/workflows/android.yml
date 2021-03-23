@@ -24,5 +24,5 @@ jobs:
       uses: ShaunLWM/action-release-debugapk@master
       env:
        GITHUB_TOKEN: ${{ secrets.TOKEN }}
-       APP_FOLDER: emulatorview 
+       APP_FOLDER: term 
        RELEASE_TITLE: New Build
